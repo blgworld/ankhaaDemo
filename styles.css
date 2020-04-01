@@ -1,0 +1,371 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+}
+
+.container-fluid {
+  padding: 3% 9% 0%;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  line-height: 60px;
+}
+
+.logo-img {
+  height: auto;
+  width: 75%;
+}
+
+nav ul {
+  line-height: 50px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0px 16px;
+  margin-right: 25px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: lavender;
+  font-size: 22px;
+  font-family: "Quattrocento Sans", sans-serif;
+  text-align: center;
+}
+
+/*navbar done*/
+/*title section starts here*/
+
+#title {
+  position: relative;
+  width: 100%;
+
+  background: #29b0ce;
+  background: -moz-linear-gradient(
+    45deg,
+    #29b0ce 0%,
+    #2982a4 35%,
+    #ab2dc5 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #29b0ce 0%,
+    #2982a4 35%,
+    #ab2dc5 100%
+  );
+  background: linear-gradient(45deg, #29b0ce 0%, #2982a4 35%, #ab2dc5 100%);
+}
+
+.img-fluid {
+  height: auto;
+  width: 81%;
+  margin-left: 100px;
+}
+
+.texts-big,
+.texts {
+  padding-left: 20px;
+}
+
+.texts-big {
+  color: #4ec5fc;
+  padding-top: 120px;
+  font-size: 3.5rem;
+  font-family: "Quattrocento Sans", sans-serif;
+  margin-right: 10px;
+}
+
+.texts {
+  color: rgba(255, 255, 255, 0.87);
+  font-family: "Montserrat", sans-serif;
+  padding-top: 37px;
+}
+
+.button:hover {
+  transition: all 1s ease;
+  transform: translateX(5px);
+  cursor: pointer;
+  box-shadow: -6px -9px 2px -2px #365b86;
+}
+
+.button {
+  height: 70px;
+  line-height: 70px;
+  width: 180px;
+  margin: 25px;
+  padding-left: 10px;
+  border-radius: 50px;
+  float: left;
+  color: rgb(223, 223, 223);
+  box-shadow: 5px 5px 2px -2px #365b86;
+  background-image: linear-gradient(
+    to top,
+    #4292ff,
+    #388cff,
+    #2e86ff,
+    #2380ff,
+    #177aff
+  );
+  border: none;
+}
+
+/*title section done*/
+/*features section starts here*/
+#features {
+  padding: 10%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.feature-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.features-p {
+  color: #777777;
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.icon-ftr {
+  font-size: 60px;
+  padding: 20px;
+  color: #8031ca;
+}
+
+.icon-ftr:hover {
+  color: #9d36d8;
+}
+
+/*features section ends here*/
+/*testimonial section starts here*/
+#testimonials {
+  text-align: center;
+  width: 100%;
+  background: #29b0ce;
+  background: -moz-linear-gradient(
+    45deg,
+    #29b0ce 0%,
+    #2982a4 35%,
+    #ab2dc5 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #29b0ce 0%,
+    #2982a4 35%,
+    #ab2dc5 100%
+  );
+  background: linear-gradient(45deg, #29b0ce 0%, #2982a4 35%, #ab2dc5 100%);
+}
+
+.carousel-item {
+  padding: 1% 8% 3%;
+  height: auto;
+}
+
+.testimonial-image {
+  margin-top: 50px;
+  border-radius: 100%;
+  width: 15%;
+}
+
+h2 {
+  color: rgb(255, 253, 253);
+  font-family: "Montserrat";
+  font-size: 3rem;
+  padding-bottom: 50px;
+}
+
+.peb {
+  color: rgb(212, 212, 212);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: rgb(0, 74, 172);
+  background-color: rgb(113, 180, 255);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+
+  bottom: 75%;
+}
+
+/*testimonial page ends here*/
+
+/*photo section starts here*/
+#photos-2 {
+  width: 100%;
+  background: #29b0ce;
+  background: -moz-linear-gradient(
+    45deg,
+    #29b0ce 0%,
+    #2982a4 35%,
+    #ab2dc5 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #29b0ce 0%,
+    #2982a4 35%,
+    #ab2dc5 100%
+  );
+  background: linear-gradient(45deg, #29b0ce 0%, #2982a4 35%, #ab2dc5 100%);
+}
+.ankhaa-sandal,
+.guitar {
+  height: auto;
+  width: 100%;
+  padding: 10% 5%;
+}
+
+.ankhaa-sandal-w {
+}
+
+.pt-p,
+.pt-p-2 {
+  padding-top: 50%;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+.pt-p-2 {
+  color: white;
+}
+
+/*photo section ends here*/
+/*contact section starts here*/
+.contact-form {
+  background: #fff;
+
+  margin-bottom: 5%;
+  width: 50%;
+}
+
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+
+.contact-image {
+  text-align: center;
+}
+
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+
+.contact-form form {
+  padding: 14%;
+}
+
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+
+.contact-form .btnContact {
+  width: 100%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #3578dc;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnContactSubmit {
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+
+/*contact section ends here*/
+/*footer section starts here*/
+
+.footer-icons {
+  padding-top: 10%;
+  text-align: center;
+}
+.footer-icon {
+  color: #1063c2;
+}
+.bg-whit {
+  background-color: rgb(255, 255, 255);
+}
+.footer-p {
+  color: rgb(82, 82, 82);
+}
+
+@media only screen and (max-width: 770px) {
+  .html,
+  body {
+    text-align: center;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .button {
+    margin: 0% 27%;
+  }
+  .texts-big {
+    font-size: 3rem;
+  }
+  .img-fluid {
+    margin: auto;
+  }
+  .pt-p,
+  .pt-p-2 {
+    padding: 6%;
+  }
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
